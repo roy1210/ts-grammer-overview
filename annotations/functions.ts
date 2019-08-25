@@ -47,7 +47,7 @@ const forecast = {
 }
 
 // const logWeather = (forecast: {date: Date, weather: string}): ->
-// destructuring
+// destructuring with annotation
 const logWeather = ({date, weather}: {date: Date, weather: string}):
     void => {
       console.log(date)
